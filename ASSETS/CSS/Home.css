@@ -1,0 +1,42 @@
+.home .navMenuMain {
+  position: absolute;
+  z-index: 10;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.home .navMenuMain a {
+  color: aliceblue;
+}
+
+.mainContainer {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#BackInicio {
+  position: absolute;
+  width: 100%;
+  opacity: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  filter: contrast(1.5) brightness(0.5);
+  z-index: 1;
+}
+
+#logoInicio {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+}

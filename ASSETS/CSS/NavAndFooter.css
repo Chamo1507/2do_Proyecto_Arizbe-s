@@ -1,0 +1,111 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Satisfy&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.bpmf-huninn-regular {
+  font-family: "Bpmf Huninn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Bpmf Huninn", sans-serif;
+}
+
+/*Menu de Navegación*/
+body {
+  background-color: #f2e7d5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navMenuMain {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.135);
+  top: 0;
+  padding: 2vh 0px;
+}
+
+.navMenuMain ul {
+  display: flex;
+  list-style: none;
+  padding: 0 10px;
+  margin: 0 30px;
+  gap: 50px;
+}
+
+.navMenuMain a {
+  text-decoration: none;
+  color: black;
+  font-family: "Satisfy";
+  font-size: 25px;
+}
+
+.navMenuMain a:hover {
+  color: #943636;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2px 0;
+  padding: 4px 0;
+}
+
+.navMenuMain img {
+  height: 50px;
+}
+
+/*cuerpo*/
+
+main {
+  flex: 1;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #5f5949;
+  color: aliceblue;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.135);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  place-items: center;
+}
+
+footer img {
+  height: 100px;
+}
+
+.center ul {
+  text-align: center;
+}
+
+.center {
+  width: 100%;
+  border-style: solid;
+  border-width: 0 2px;
+  font-family: inherit;
+}
+.center ul a {
+  font-family: "Times New Roman", Times, serif;
+}
+.icons a {
+  font-size: 30px;
+  margin: 10px;
+}
