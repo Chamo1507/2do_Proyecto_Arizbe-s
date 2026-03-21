@@ -1,0 +1,189 @@
+/* Introduccion de contacto*/
+.contacto_encabezado {
+  padding: 60px 40px 50px;
+  text-align: center;
+}
+
+.contacto_introduccion h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 50px;
+  color: #943636;
+  margin-bottom: 14px;
+}
+
+.contacto_introduccion p {
+  font-family: "BPMF Huninn", sans-serif;
+  font-size: 20px;
+  color: #7a6a57;
+  max-width: 1000px;
+  margin: 0 auto 12px;
+}
+
+.contacto_introduccion h3 {
+  font-family: "Satisfy", cursive;
+  font-size: 25px;
+  color: #3b2e22;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 50px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+.contacto_encabezado {
+  grid-column: 1 / -1;
+}
+
+/* Detalles */
+.contacto_detalles {
+  font-family: "BPMF Huninn", sans-serif;
+}
+
+.info-block {
+  margin-bottom: 20px;
+}
+
+.info-block h4 {
+  font-family: "Satisfy", cursive;
+  font-size: 18px;
+  color: #943636;
+  margin-bottom: 6px;
+}
+
+.info-block address,
+.info-block p {
+  font-style: normal;
+  color: #3b2e22;
+}
+
+.info-block a {
+  color: #943636;
+  text-decoration: none;
+}
+
+.info-block a:hover {
+  text-decoration: underline;
+}
+
+.contacto_detalles hr {
+  border: none;
+  border-top: 1px dashed #d9c9b0;
+  margin: 4px 0 18px;
+}
+
+/* Formulario */
+.contacto-formulario-container {
+  background-color: #fffaf4;
+  border-radius: 8px;
+  padding: 40px 36px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-formulario h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 29px;
+  color: #943636;
+  margin-bottom: 6px;
+}
+
+.contacto-formulario p {
+  font-family: "BPMF Huninn", sans-serif;
+  color: #7a6a57;
+  margin-bottom: 24px;
+}
+
+.contacto-formulario fieldset {
+  border: none;
+  padding: 0;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  font-family: "BPMF Huninn", sans-serif;
+  font-size: 16px;
+  color: #3b2e22;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  background-color: #fff;
+  border: 1px solid #d9c9b0;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #3b2e22;
+}
+
+.form-group textarea {
+  min-height: 110px;
+}
+
+/* Radio */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.radio-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid #d9c9b0;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+  font-family: "BPMF Huninn", sans-serif;
+  font-size: 16px;
+  color: #3b2e22;
+}
+
+.radio-item input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  cursor: pointer;
+}
+
+/* Direccion del formulario */
+.address-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 10px;
+}
+
+/* Botones */
+.btn-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.btn-submit {
+  flex: 1;
+  padding: 12px;
+  background-color: #943636;
+  color: #fff;
+  border: 2px solid #943636;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #7a2a2a;
+}
