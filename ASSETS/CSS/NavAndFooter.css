@@ -1,6 +1,7 @@
 /*Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Satisfy&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balthazar&display=swap");
 .satisfy-regular {
   font-family: "Satisfy", cursive;
   font-weight: 400;
@@ -12,15 +13,18 @@
   font-style: normal;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
-  font-family: "Bpmf Huninn", sans-serif;
+.balthazar-regular {
+  font-family: "Balthazar", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Satisfy", cursive;
+}
+
+h2 {
+  font-family: "Balthazar", serif;
 }
 
 /*Menu de Navegación*/
@@ -108,4 +112,11 @@ footer img {
 .icons a {
   font-size: 30px;
   margin: 10px;
+}
+
+.secciones {
+  width: 100%;
+  height: 500px;
+  padding-right: 7%;
+  padding-left: 7%;
 }
