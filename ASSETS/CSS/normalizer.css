@@ -351,7 +351,7 @@ textarea {
 */
 
 button,
-input:where([type='button'], [type='reset'], [type='submit']),
+input:where([type="button"], [type="reset"], [type="submit"]),
 ::file-selector-button {
   appearance: button;
 }
@@ -369,7 +369,7 @@ input:where([type='button'], [type='reset'], [type='submit']),
   Make elements with the HTML hidden attribute stay hidden by default.
 */
 
-[hidden]:where(:not([hidden='until-found'])) {
+[hidden]:where(:not([hidden="until-found"])) {
   /* eslint-disable-next-line */
   display: none !important;
 }
